@@ -1,0 +1,17 @@
+{
+	"name": "idecloud",
+	"version": "1.0.0",
+	"description": "Cloud socket server for IDElectron",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "npm run build && node ./dist/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Matheus Pedroni",
+	"license": "ISC",
+	"dependencies": {
+		"tslint": "^5.10.0",
+		"typescript": "^2.8.3"
+	}
+}
