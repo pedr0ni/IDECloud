@@ -11,6 +11,9 @@
 	"author": "Matheus Pedroni",
 	"license": "ISC",
 	"dependencies": {
+		"@types/node": "^10.1.2",
+		"@types/socket.io": "^1.4.33",
+		"socket.io": "^2.1.1",
 		"tslint": "^5.10.0",
 		"typescript": "^2.8.3"
 	}
